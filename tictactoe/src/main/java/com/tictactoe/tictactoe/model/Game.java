@@ -1,6 +1,5 @@
 package com.tictactoe.tictactoe.model;
 
-import java.awt.Dimension;
 import java.util.*;
 
 import com.tictactoe.tictactoe.exception.InvalidGameConstructionParameterException;
@@ -77,7 +76,6 @@ public class Game {
 			gameState = gameState.DRAWN;
 			winner = null;
 		}
-
 		nextPlayerIndex++;
 		/** finding the turn of the next player */
 		nextPlayerIndex %= players.size();
