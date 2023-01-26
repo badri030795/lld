@@ -11,7 +11,7 @@ import com.parkinglot.parkinglot.services.TicketService;
 import com.parkinglot.parkinglot.strategies.slotAllocation.ParkingSpotStrategy;
 import com.parkinglot.parkinglot.strategies.slotAllocation.RandomSpotAllocationStrategy;
 
-public class Client {
+public class ClientParkingTicketCreation {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World");

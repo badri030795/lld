@@ -40,7 +40,7 @@ public class TicketService {
 		ticket.setVehicle(vehicle);
 		ticket.setParkingLot(parkingLot);
 
-		ParkingSpots parkingSpot = parkingSpotStrategy.assignSpot(parkingLotRepository.getParkingLot(),
+		ParkingSpots parkingSpot = parkingSpotStrategy.assignSpot(parkingLotRepository.getParkingLot(1L),
 				vehicle.getType());
 		parkingSpot.setSlotStatus(ParkingSlotSatus.OCCUPIED);
 
